@@ -39,3 +39,10 @@ The migration guide could reference other migration examples in the current
 changelog entry.
 
 ## Unreleased
+
+### Fixed
+
+- On macOS, report text selected from Character Viewer as an IME commit even
+  without marked text. Backport of upstream PR #4639, commit
+  `ab2fe0cd12ff83fc287d9448ef1cdc4074e8bfeb`, to 0.30.13. Commits made outside
+  keyboard interpretation also finish composition without suppressing the next key.
