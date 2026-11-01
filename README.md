@@ -4,6 +4,7 @@ The `macos-emoji-picker-0.30` branch carries a focused macOS Character Viewer
 backport for Neovide, based on winit 0.30.13. It adapts upstream
 [PR #4639](https://github.com/rust-windowing/winit/pull/4639) and preserves the
 0.30 API. See [the changelog](src/changelog/unreleased.md) for details.
+Git consumers use the published `dpi` dependency, matching the crates.io package.
 
 [![Crates.io](https://img.shields.io/crates/v/winit.svg)](https://crates.io/crates/winit)
 [![Docs.rs](https://docs.rs/winit/badge.svg)](https://docs.rs/winit)
